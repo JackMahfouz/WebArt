@@ -1,0 +1,111 @@
+.div1 {
+  height: 400px;
+  width: 95%;
+  padding: 0;
+  /* background-color: red; */
+  margin: 0;
+  padding-top: 100px;
+  padding-left: 5%;
+  font-family: 'Zen Dots', cursive;
+
+}
+.div1_1 {
+  display: inline-block;
+  width: 20%;
+  height: 170px;
+  text-align: center;
+  background-color: lightgray;
+  border-radius: 7px;
+  position: absolute;
+  left: 10%;
+}
+.div1_2 {
+  display: inline-block;
+  width: 20%;
+  height: 170px;
+  text-align: center;
+
+  background-color: lightgray;
+  border-radius: 7px;
+  position: absolute;
+  right: 40%;
+}
+.div1_3 {
+  display: inline-block;
+  width: 20%;
+  height: 170px;
+  text-align: center;
+  background-color: lightgray;
+  border-radius: 7px;
+  position: absolute;
+  right: 10%;
+}
+.div1_1,.div1_2,.div1_3{
+  padding-top: 40px;
+  margin-bottom: -100px;
+}
+.fa-html5 {
+  font-size: 60px;
+  margin-top: 30px;
+  color: orange;
+}
+.fa-js-square {
+  font-size: 60px;
+  margin-top: 30px;
+  color: yellow;
+
+}
+.fa-css3-alt {
+  font-size: 60px;
+  margin-top: 30px;
+  color: #037ca4;
+
+}
+@media screen and (max-width: 600px) {
+.div1 {
+  height: 1000px;
+  width: 95%;
+  /* background-color: red; */
+}
+.div1 div {
+  display: block;
+  width: 80%;
+  margin-bottom: 100px;
+  height: 200px;
+}
+.div1_1{
+  position: absolute;
+  left: 10%;
+  top:700px;
+
+}
+.div1_3 {
+  position: absolute;
+  left: 10%;
+  top:1300px;
+}
+.div1_2 {
+  position: absolute;
+  left: 10%;
+  top:1000px;
+}
+.sp1 {
+  content: "Skills";
+  display: block;
+  margin-bottom: 30px;
+  font-family: 'Courgette', cursive;
+  font-size: 60px;
+  text-align: center;
+  color: darkblue;
+  margin-top: -60px
+}
+}
+.sp1 {
+  display: block;
+  margin-bottom: 30px;
+  font-family: 'Courgette', cursive;
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 20px;
+  color: darkblue;
+}

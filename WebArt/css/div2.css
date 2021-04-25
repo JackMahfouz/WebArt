@@ -1,0 +1,65 @@
+.div2 {
+  width: 90%;
+  height: 400px;
+  background-color: lightgray;
+  text-align: center;
+  padding-top: 20px;
+  margin-left: 5%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 7px;
+    font-family: 'Courgette', cursive;
+
+
+}
+.fa-laptop-code{
+  font-size: 32px;
+  color: blue;
+}
+.fa-brain {
+  font-size: 32px;
+  color: darkgray;
+}
+.fa-file-code {
+
+    font-size: 32px;
+    color: darkblue;
+}
+.div2 div {
+  display: inline-block;
+  height: 100px;
+  background-color: white;
+  padding: 50px;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+.sp {
+  display: block;
+  margin-bottom: 30px;
+  font-family: 'Courgette', cursive;
+  font-size: 60px;
+  color: darkblue;
+}
+.div2 span {
+  display: block;
+}
+@media screen and (max-width: 600px) {
+.div2 {
+  height: 1100px;
+  width: 90%;
+  padding: 0;
+  margin-right: 5%;
+  padding-top: 40px;
+    font-size: 32px;
+  /* background-color: red; */
+}
+.div2 div {
+  display: block;
+  width: 60%;
+  margin-bottom: 100px;
+  height: 150px;
+  margin-left: 10%;
+  padding: 10%;
+}
+
+}

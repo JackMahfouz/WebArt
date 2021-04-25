@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+nav{
+  background-color: white;
+  padding: 20px 0px;
+  z-index: 1;
+  position: sticky;
+  top: 0px;
+}
+#icon{
+  color: black;
+  display: none;
+}
+nav a{
+  margin-right: 60px;
+  margin-left: 60px;
+  text-decoration: none;
+  font-family: 'Courgette', cursive;
+  color: black;
+}
+nav a:hover {
+  border-bottom: 2px solid black;
+}
+.title {
+  display: inline-block;
+  font-size: 28px;
+  font-family: 'Righteous', cursive;
+  color: black;
+
+}
+.title:hover {
+  border-bottom: 0px;
+}
+.drop {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+.title {
+  display: inline-block;
+  position: absolute;
+  top: 16px;
+  left: -30px;
+  font-size: 28px;
+}
+  nav{
+    height: 60px;
+    padding: 0;
+    z-index: 1;
+    position: sticky;
+    top: 0px;
+  }
+  #icon{
+    color: black;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 16px;
+    font-size: 28px;
+  }
+  nav a{
+    display: none;
+    text-decoration:none;
+  }
+  .drop {
+    display: none;
+  }
+.drop1{
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    display: block;
+    width: 160px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: lightgray;
+    z-index: 1;
+    padding: 20px 10px;
+    border-radius: 3px;
+
+  }
+  .drop1 a{
+    display: block;
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin: 0px;
+    color: black;
+    margin-bottom: 3px;
+    font-family: 'Courgette', cursive;
+  }
+
+}

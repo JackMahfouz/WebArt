@@ -1,0 +1,22 @@
+.head{
+  height: 400px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: url("../resources/cover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+  font-weight: bolder;
+}
+.head span {
+  text-align: center;
+  position: absolute;
+  width: calc(100%/3);
+  left: calc(100%/3);
+  top: 150px;
+  color: white;
+}

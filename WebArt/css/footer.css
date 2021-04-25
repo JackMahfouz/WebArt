@@ -1,0 +1,33 @@
+footer{
+  height: auto;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding-bottom: 70px;
+}
+footer span {
+  display: block;
+  padding-top: 40px;
+}
+footer a {
+  display: block;
+  padding-top: 10px;
+  text-decoration: none;
+  color: white;
+}
+footer a:hover {
+  color: orange;
+}
+footer p {
+  display: block;
+  padding-top: 40px;
+}
+footer span {
+  display: block;
+  margin-bottom: 20px;
+  font-family: 'Courgette', cursive;
+  font-size: 60px;
+  color: orange;
+  text-align: center;
+}

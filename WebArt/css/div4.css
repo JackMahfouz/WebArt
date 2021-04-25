@@ -1,0 +1,65 @@
+.div4 span {
+  display: block;
+  margin-bottom: 20px;
+  font-family: 'Courgette', cursive;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+}
+.div4 {
+  width: 100%;
+  height: 500px;
+  background-color: lightgray;
+  text-align: center;
+  padding-top: 70px;
+  margin-top: 50px;
+  font-family: 'Courgette', cursive;
+  background-image: url("../resources/cover1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 0px;
+
+}
+.div4 div {
+  display: inline-block;
+}
+.image {
+  position: absolute;
+  width: 26%;
+  height: 300px;
+  left: 5%;
+  top: 2100px;
+  border-radius: 50%
+}
+.image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.About {
+  position: absolute;
+  width: 30%;
+  right: 10%;
+  top: 2200px;
+  font-size: 32px;
+  word-break: normal;
+  color: white;
+}
+@media screen and (max-width: 600px) {
+  .div4 {
+      height: 700px;
+      color: white;
+  }
+  .image {
+    top: 3900px;
+    width: 70%;
+    left: 15%;
+  }
+  .About {
+    top: 4300px;
+    width: 70%;
+    left: 15%;
+  }
+}
